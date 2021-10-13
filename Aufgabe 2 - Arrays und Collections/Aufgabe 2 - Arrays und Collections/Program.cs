@@ -35,6 +35,6 @@ namespace Aufgabe_2___Arrays_und_Collections
             
         }
 
-
+        static
     }
 }
