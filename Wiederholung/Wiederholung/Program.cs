@@ -56,5 +56,12 @@ namespace Wiederholung
         {
             return x * x;
         }
+
+
+        
+
+
+
+
     }
 }

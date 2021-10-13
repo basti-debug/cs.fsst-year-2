@@ -1,0 +1,7 @@
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 1 - Arrays\Aufgabe 1 - Arrays\bin\Debug\Aufgabe 1 - Arrays.exe.config
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 1 - Arrays\Aufgabe 1 - Arrays\bin\Debug\Aufgabe 1 - Arrays.exe
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 1 - Arrays\Aufgabe 1 - Arrays\bin\Debug\Aufgabe 1 - Arrays.pdb
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 1 - Arrays\Aufgabe 1 - Arrays\obj\Debug\Aufgabe 1 - Arrays.csproj.AssemblyReference.cache
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 1 - Arrays\Aufgabe 1 - Arrays\obj\Debug\Aufgabe 1 - Arrays.csproj.CoreCompileInputs.cache
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 1 - Arrays\Aufgabe 1 - Arrays\obj\Debug\Aufgabe 1 - Arrays.exe
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 1 - Arrays\Aufgabe 1 - Arrays\obj\Debug\Aufgabe 1 - Arrays.pdb
