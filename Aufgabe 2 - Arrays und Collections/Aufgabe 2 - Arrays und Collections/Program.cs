@@ -53,14 +53,29 @@ namespace Aufgabe_2___Arrays_und_Collections
             if (query == "./randomcollection.exe")
             {
                 Random rnd = new Random();
-                var liste1 = new List<int>();
-                int sum = 0;
+                var colllection1 = new List<int>();
+                int sum = 100;
+                int didgits = 0;
+                int dividable = 0;
                 for (int l = 0; l < sum; l++)
                 {
-                    liste1.Add(rnd.Next(1, 99999));
+                    colllection1.Add(rnd.Next());
                 }
 
+                for(int z = 0; z <colllection1.Count(); z++)
+                {
+                    if (colllection1[z].ToString().Length == 3)
+                    {
+                        didgits++;
+                    }
+                    if (colllection1[z] % 7 == 0)
+                    {
+                        dividable++;
+                    }
+                }
 
+                Console.WriteLine("Zahlen mit 3 Stellen: " + didgits);
+                Console.WriteLine("Zahlen die ohne Rest durch 7 teilbar sind: " + dividable);
                 
 
             }
