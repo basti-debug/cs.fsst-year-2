@@ -1,0 +1,7 @@
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 2 - Arrays und Collections\Aufgabe 2 - Arrays und Collections\bin\Debug\Aufgabe 2 - Arrays und Collections.exe.config
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 2 - Arrays und Collections\Aufgabe 2 - Arrays und Collections\bin\Debug\Aufgabe 2 - Arrays und Collections.exe
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 2 - Arrays und Collections\Aufgabe 2 - Arrays und Collections\bin\Debug\Aufgabe 2 - Arrays und Collections.pdb
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 2 - Arrays und Collections\Aufgabe 2 - Arrays und Collections\obj\Debug\Aufgabe 2 - Arrays und Collections.csproj.AssemblyReference.cache
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 2 - Arrays und Collections\Aufgabe 2 - Arrays und Collections\obj\Debug\Aufgabe 2 - Arrays und Collections.csproj.CoreCompileInputs.cache
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 2 - Arrays und Collections\Aufgabe 2 - Arrays und Collections\obj\Debug\Aufgabe 2 - Arrays und Collections.exe
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 2 - Arrays und Collections\Aufgabe 2 - Arrays und Collections\obj\Debug\Aufgabe 2 - Arrays und Collections.pdb

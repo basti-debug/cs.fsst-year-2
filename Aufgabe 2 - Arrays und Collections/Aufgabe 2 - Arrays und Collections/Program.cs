@@ -10,31 +10,72 @@ namespace Aufgabe_2___Arrays_und_Collections
     {
         static void Main(string[] args)
         {
+           // Aufgabe A
+
+            int x = 0;
+            int y = 0;
+            int count = 0;
+            string query;
+
+            Console.WriteLine("Installed Programms: ./uebungsaufgabe2.exe    ./randomcollection.exe");
+            Console.WriteLine();
+            Console.WriteLine("select programm: ");
+
+            query = Convert.ToString(Console.ReadLine());
+            if (query == "./uebungsaufgabe2.exe")
+            {
+                Console.WriteLine(" ");
+                Console.WriteLine("Array ersteller v1");
+                Console.WriteLine("Dimensionen angeben: ");
 
 
-            int[,] array = new int[2, 3];
-            // row 1 
-            array[1, 1] = 0;
-            array[1, 2] = 1;
-            array[1, 3] = 4;
+                Console.Write("Wert für x: ");
+                x = Convert.ToInt32(Console.ReadLine());
 
-            // row 2
-            array[2, 1] = 9;
-            array[2, 2] = 16;
-            array[2, 3] = 25;
+                Console.Write("Wert für y: ");
+                y = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(" ");
+                int[,] array1 = new int[x, y];
 
-            // row 3
+                for (int i = 0; i < x; i++)
+                {
+                    for (int j = 0; j < y; j++)
+                    {
+                        count++;
+                        array1[i, j] = count * count;
+                        Console.Write(array1[i, j]);
+                        Console.Write(" ");
+                    }
+                    Console.WriteLine();
+                }
+            }
 
-            array[3, 1] = 36;
-            array[3, 2] = 49;
-            array[3, 3] = 64;
+            if (query == "./randomcollection.exe")
+            {
+                Random rnd = new Random();
+                var liste1 = new List<int>();
+                int sum = 0;
+                for (int l = 0; l < sum; l++)
+                {
+                    liste1.Add(rnd.Next(1, 99999));
+                }
 
+
+                
+
+            }
+            else
+            {
+                Console.WriteLine();
+                Console.WriteLine("Please enter a existing Program");
+                Console.WriteLine("restart to try again");
+            }
+
+            Console.ReadKey();
 
             
 
-            
+
         }
-
-        static
     }
 }
