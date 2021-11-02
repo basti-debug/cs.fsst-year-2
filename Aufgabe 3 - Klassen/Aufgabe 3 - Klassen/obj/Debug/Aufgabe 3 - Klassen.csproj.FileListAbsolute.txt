@@ -1,0 +1,8 @@
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\bin\Debug\Aufgabe 3 - Klassen.exe.config
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\bin\Debug\Aufgabe 3 - Klassen.exe
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\bin\Debug\Aufgabe 3 - Klassen.pdb
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\Aufgabe 3 - Klassen.csproj.AssemblyReference.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\Aufgabe 3 - Klassen.csproj.SuggestedBindingRedirects.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\Aufgabe 3 - Klassen.csproj.CoreCompileInputs.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\Aufgabe 3 - Klassen.exe
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\Aufgabe 3 - Klassen.pdb
