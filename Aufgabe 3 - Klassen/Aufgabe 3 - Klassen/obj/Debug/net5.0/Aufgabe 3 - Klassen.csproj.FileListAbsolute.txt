@@ -1,0 +1,16 @@
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\net5.0\Aufgabe 3 - Klassen.csproj.AssemblyReference.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\net5.0\Aufgabe 3 - Klassen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\net5.0\Aufgabe 3 - Klassen.AssemblyInfoInputs.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\net5.0\Aufgabe 3 - Klassen.AssemblyInfo.cs
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\net5.0\Aufgabe 3 - Klassen.csproj.CoreCompileInputs.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\bin\Debug\net5.0\Aufgabe 3 - Klassen.exe
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\bin\Debug\net5.0\Aufgabe 3 - Klassen.deps.json
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\bin\Debug\net5.0\Aufgabe 3 - Klassen.runtimeconfig.json
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\bin\Debug\net5.0\Aufgabe 3 - Klassen.runtimeconfig.dev.json
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\bin\Debug\net5.0\Aufgabe 3 - Klassen.dll
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\bin\Debug\net5.0\ref\Aufgabe 3 - Klassen.dll
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\bin\Debug\net5.0\Aufgabe 3 - Klassen.pdb
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\net5.0\Aufgabe 3 - Klassen.dll
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\net5.0\ref\Aufgabe 3 - Klassen.dll
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\net5.0\Aufgabe 3 - Klassen.pdb
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Aufgabe 3 - Klassen\Aufgabe 3 - Klassen\obj\Debug\net5.0\Aufgabe 3 - Klassen.genruntimeconfig.cache

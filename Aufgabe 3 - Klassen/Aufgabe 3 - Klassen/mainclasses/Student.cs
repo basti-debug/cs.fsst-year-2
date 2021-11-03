@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Aufgabe_3___Klassen
+namespace Aufgabe_3___Klassen.mainclasses
 {
-    internal class Class1
+    internal class Student : Person
     {
     }
 }
