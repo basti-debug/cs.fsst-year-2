@@ -8,11 +8,21 @@ namespace Aufgabe_3___Klassen.mainclasses
 {
     internal class Person
     {
+
+
+
         public string sex;
         public string firstName;
         public string lastName;
-        public DateTime birthday; 
+        public DateTime birthday;
 
+       public Person(string sex, string firstName, string lastName, DateTime birthday)
+        {
+            sex = sex;
+            firstName = firstName;
+            lastName = lastName;
+            birthday = birthday;
+        }
         public string fullName()
         {
             return (firstName + " " + lastName);

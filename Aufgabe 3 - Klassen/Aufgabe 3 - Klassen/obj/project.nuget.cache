@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Go/AUmVf93KN/x13KEOdtvLfEGe1yOuxKt9T3Vqbcmf1ZIISreDMTOxj3eR7V2C8gWLiiiaEql3sy0dRy0oboA==",
+  "dgSpecHash": "sjBSJolfmL/z07P55zlDWisFFIkjbz2nh2GdjWQHy2q2lTzkNhxkRU4wdXviYPXpLKuNqcUxA6xe3M2tv6ahLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\basti\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\Aufgabe 3 - Klassen\\Aufgabe 3 - Klassen\\Aufgabe 3 - Klassen.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\basti\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\basti\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -96,6 +96,8 @@ namespace Aufgabe_3___Klassen
             }
 
             #endregion
+
+
             Console.ReadKey();
         }
     }
