@@ -8,5 +8,7 @@ namespace shop
 {
     internal class customer
     {
+        public string name = "";
+        public string password = "";
     }
 }

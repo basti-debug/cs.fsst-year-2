@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace shop
 {
-    class product
+    public class product
     {
         public string name = "";
         public int sku = 0;

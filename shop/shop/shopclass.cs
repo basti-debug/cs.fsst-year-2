@@ -8,10 +8,11 @@ namespace shop
 {
     public class shopclass
     {
-        public string shopname = "JoelsPfefferminzliqourLaden";
-        
-        List<string> listofproducts = new List<string>();
-        
+        public string shopname = "Microcenter";
 
-}
+        public List<product> productlist= new List<product>();
+
+
+
+    }
 }

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace shop
 {
-    internal class cart
+    public class cart
     {
-        List<string> productlist = new List<string>();
-
-        
+        public List<product> productcart = new List<product>();
     }
 }
