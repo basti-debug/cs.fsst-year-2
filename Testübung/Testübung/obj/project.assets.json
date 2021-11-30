@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\Testübung\\Testübung\\Testübung.csproj",
+      "projectUniqueName": "C:\\Users\\basti\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\Testübung\\Testübung\\Testübung.csproj",
       "projectName": "Testübung",
-      "projectPath": "B:\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\Testübung\\Testübung\\Testübung.csproj",
+      "projectPath": "C:\\Users\\basti\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\Testübung\\Testübung\\Testübung.csproj",
       "packagesPath": "C:\\Users\\basti\\.nuget\\packages\\",
-      "outputPath": "B:\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\Testübung\\Testübung\\obj\\",
+      "outputPath": "C:\\Users\\basti\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\Testübung\\Testübung\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\basti\\AppData\\Roaming\\NuGet\\NuGet.Config",
