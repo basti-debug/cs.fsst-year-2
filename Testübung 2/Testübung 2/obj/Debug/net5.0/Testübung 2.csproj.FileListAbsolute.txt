@@ -1,0 +1,16 @@
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\bin\Debug\net5.0\Testübung 2.exe
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\bin\Debug\net5.0\Testübung 2.deps.json
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\bin\Debug\net5.0\Testübung 2.runtimeconfig.json
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\bin\Debug\net5.0\Testübung 2.runtimeconfig.dev.json
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\bin\Debug\net5.0\Testübung 2.dll
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\bin\Debug\net5.0\ref\Testübung 2.dll
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\bin\Debug\net5.0\Testübung 2.pdb
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\obj\Debug\net5.0\Testübung 2.csproj.AssemblyReference.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\obj\Debug\net5.0\Testübung 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\obj\Debug\net5.0\Testübung 2.AssemblyInfoInputs.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\obj\Debug\net5.0\Testübung 2.AssemblyInfo.cs
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\obj\Debug\net5.0\Testübung 2.csproj.CoreCompileInputs.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\obj\Debug\net5.0\Testübung 2.dll
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\obj\Debug\net5.0\ref\Testübung 2.dll
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\obj\Debug\net5.0\Testübung 2.pdb
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\Testübung 2\Testübung 2\obj\Debug\net5.0\Testübung 2.genruntimeconfig.cache
