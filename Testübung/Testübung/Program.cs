@@ -14,7 +14,7 @@
  * -fields(alle variablen innerhalb von klassen etc),properties,constructor(übergabe Parameter),Methods
  * 
  * Für welches der Grundkonzepte können wir Properties in Klassen verwenden?
- * 
+ * encapsulation
  */
 
 namespace Testübung
