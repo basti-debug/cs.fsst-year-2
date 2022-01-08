@@ -81,8 +81,7 @@ namespace main
 
             #region inteface
 
-            var customer = new shop.customer();
-            customer.name = "unspecifed";
+            var customer = null;
 
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.ForegroundColor = ConsoleColor.Black;
@@ -92,12 +91,53 @@ namespace main
             Console.WriteLine("Welcome in " + erstershop.shopname);
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.WriteLine("");
+
+            Console.Write("do you wanna subscribe to our ");
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.Write("gold VIP PRO ");
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine("membership ?");
+            Console.WriteLine("y/n");
+            string entryvip = Console.ReadLine();
+            Console.WriteLine("");
+            if (entryvip == "y")
+            {
+                Console.WriteLine("Nice to have you here :)");
+                var customer = new shop.vip_customer();
+                customer.name = "unspecifed";
+                customer.vip = true;
+            }
+            else
+            {
+                var customer = new shop.regular_customer();
+                customer.name = "unspecifed";
+                Console.WriteLine("Maybe another time...");
+
+
+            }
+
             Console.WriteLine("Sign up:");
             Console.WriteLine("");
+            
             Console.Write("Name:");
+            
             customer.name = Console.ReadLine();
+            
+            
             Console.Write("Password:");
+
+            
             customer.password = Console.ReadLine();
+            
+            Console.WriteLine("");
+
+            
+                
+            
+            Console.WriteLine("");
+            Console.Write("Adresse:");
+            customer.adress = Console.ReadLine();
+
             Console.Clear();
 
             #region todays super sale
@@ -237,9 +277,9 @@ namespace main
                     Console.Write(totalcost + " Pounds");
                     Console.ForegroundColor = ConsoleColor.Black;
                     Console.WriteLine("");
-                    Console.WriteLine("the bill will be sent to your address.");
+                    Console.WriteLine("the bill will be sent to your address: " + customer.adress);
                     Console.WriteLine("Thanks for choosing " + erstershop.shopname);
-                    Console.ReadKey();
+                    Task.Delay(5000).Wait();
                     Environment.Exit(0);
                 }
 

@@ -28,3 +28,18 @@ C:\Users\basti\Desktop\shop\shop\obj\Debug\net6.0\shop.dll
 C:\Users\basti\Desktop\shop\shop\obj\Debug\net6.0\ref\shop.dll
 C:\Users\basti\Desktop\shop\shop\obj\Debug\net6.0\shop.pdb
 C:\Users\basti\Desktop\shop\shop\obj\Debug\net6.0\shop.genruntimeconfig.cache
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\bin\Debug\net6.0\shop.exe
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\bin\Debug\net6.0\shop.deps.json
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\bin\Debug\net6.0\shop.runtimeconfig.json
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\bin\Debug\net6.0\shop.dll
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\bin\Debug\net6.0\ref\shop.dll
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\bin\Debug\net6.0\shop.pdb
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\obj\Debug\net6.0\shop.csproj.AssemblyReference.cache
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\obj\Debug\net6.0\shop.GeneratedMSBuildEditorConfig.editorconfig
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\obj\Debug\net6.0\shop.AssemblyInfoInputs.cache
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\obj\Debug\net6.0\shop.AssemblyInfo.cs
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\obj\Debug\net6.0\shop.csproj.CoreCompileInputs.cache
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\obj\Debug\net6.0\shop.dll
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\obj\Debug\net6.0\ref\shop.dll
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\obj\Debug\net6.0\shop.pdb
+B:\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\shop\shop\obj\Debug\net6.0\shop.genruntimeconfig.cache

@@ -10,5 +10,7 @@ namespace shop
     {
         public string name = "";
         public string password = "";
+        public string adress = "";
+        public bool vip = false;
     }
 }

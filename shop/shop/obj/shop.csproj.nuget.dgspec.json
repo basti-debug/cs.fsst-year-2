@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\basti\\Desktop\\shop\\shop\\shop.csproj": {}
+    "B:\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\shop\\shop\\shop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\basti\\Desktop\\shop\\shop\\shop.csproj": {
+    "B:\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\shop\\shop\\shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\basti\\Desktop\\shop\\shop\\shop.csproj",
+        "projectUniqueName": "B:\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\shop\\shop\\shop.csproj",
         "projectName": "shop",
-        "projectPath": "C:\\Users\\basti\\Desktop\\shop\\shop\\shop.csproj",
+        "projectPath": "B:\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\shop\\shop\\shop.csproj",
         "packagesPath": "C:\\Users\\basti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\basti\\Desktop\\shop\\shop\\obj\\",
+        "outputPath": "B:\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\shop\\shop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\basti\\AppData\\Roaming\\NuGet\\NuGet.Config",
