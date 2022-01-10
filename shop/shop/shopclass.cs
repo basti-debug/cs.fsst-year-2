@@ -11,8 +11,7 @@ namespace shop
         public string shopname = "Microcenter";
 
         public List<product> productlist= new List<product>();
+   
 
-
-
-    }
+}
 }

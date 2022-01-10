@@ -81,7 +81,8 @@ namespace main
 
             #region inteface
 
-            var customer = null;
+            
+            
 
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.ForegroundColor = ConsoleColor.Black;
@@ -100,193 +101,392 @@ namespace main
             Console.WriteLine("y/n");
             string entryvip = Console.ReadLine();
             Console.WriteLine("");
+
+            #region signup
+
             if (entryvip == "y")
+            #region vip
             {
                 Console.WriteLine("Nice to have you here :)");
                 var customer = new shop.vip_customer();
                 customer.name = "unspecifed";
-                customer.vip = true;
+               
+
+                Console.WriteLine("VIP Sign up:");
+                Console.WriteLine("");
+
+                Console.Write("Name:");
+
+                customer.name = Console.ReadLine();
+
+
+                Console.Write("Password:");
+
+
+                customer.password = Console.ReadLine();
+
+                Console.WriteLine("");
+
+
+
+
+                Console.WriteLine("");
+                Console.Write("Adress:");
+                customer.adress = Console.ReadLine();
+
+                #region todays super sale
+
+                Console.BackgroundColor = ConsoleColor.Magenta;
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.Clear();
+
+                Console.WriteLine("");
+                Console.WriteLine("---------------------------------------");
+
+                // random shop item 
+
+
+                Console.WriteLine("Todays Super deal: ");
+
+                Random rand = new Random();
+                int randomitem = rand.Next(1, erstershop.productlist.Count);
+                var firstcart = new shop.cart();
+                int jj = erstershop.productlist.Count;
+
+                foreach (shop.product p in erstershop.productlist)
+                {
+                    if (p.sku == randomitem)
+                    {
+                        Console.WriteLine(p.name + " for " + p.price + " Pounds");
+                    }
+                }
+                Console.WriteLine("---------------------------------------");
+                Task.Delay(3000).Wait();
+                #endregion
+
+
+                #region functions
+
+                Console.BackgroundColor = ConsoleColor.Gray;
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.Clear();
+                do
+                {
+
+                    Console.WriteLine("---------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Functions: ");
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.WriteLine(" 1   View all Products in stock");
+                    Console.WriteLine(" 2   Add Products to your cart");
+                    Console.WriteLine(" 3   Checkout");
+                    Console.WriteLine();
+                    Console.WriteLine("Please select a function:");
+
+                    string eingabe1 = "";
+                    while (eingabe1 == "")
+                    {
+                        eingabe1 = Console.ReadLine();
+                    }
+                    int eingabe = Convert.ToInt32(eingabe1);
+                    if (eingabe == 1)                                   // all products in stock 
+                    {
+                        Console.BackgroundColor = ConsoleColor.Gray;
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.Clear();
+                        Console.WriteLine("function 1 selected....");
+                        Task.Delay(1000).Wait();
+                        Console.Clear();
+
+                        Console.WriteLine("sku   description");
+                        foreach (var product in erstershop.productlist)
+                        {
+                            Console.Write(product.sku + "     ");
+                            Console.WriteLine(product.name);
+                        }
+
+                        Console.WriteLine("");
+
+                    }
+
+                    if (eingabe == 2)                                  // add products to cart 
+                    {
+                        string shortsku = "";
+                        int tempsku = 0;
+                        Console.WriteLine("add products to your cart: ");
+                        Console.WriteLine(" ");
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.WriteLine("please enter sku:");
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        shortsku = Console.ReadLine();
+                        tempsku = Convert.ToInt32(shortsku);
+                        int i = 0;
+
+
+
+                        foreach (shop.product p in erstershop.productlist)
+                        {
+                            if (p.sku == tempsku)
+                            {
+                                firstcart.productcart.Add(p);
+                            }
+                        }
+
+                        Console.WriteLine("your cart contains:");
+                        foreach (shop.product z in firstcart.productcart)
+                        {
+                            Console.WriteLine(z.name);
+                        }
+
+                        Task.Delay(1000).Wait();
+
+                        Console.Clear();
+
+                    }
+
+                    if (eingabe == 3)                       //checkout
+                    {
+                        Console.WriteLine("");
+                        Console.Clear();
+                        Console.WriteLine("proceeding to checkout....");
+                        Task.Delay(100).Wait();
+                        Console.Clear();
+                        Console.WriteLine("Hey " + customer.name + ", your selected products: ");
+                        Console.WriteLine();
+                        foreach (shop.product z in firstcart.productcart)
+                        {
+                            Console.WriteLine(z.name);
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine(z.price + " Pounds");
+                            Console.ForegroundColor = ConsoleColor.Black;
+                        }
+                        Console.WriteLine();
+                        Console.Write("Total Cost: ");
+                        int totalcost = 0;
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        foreach (shop.product z in firstcart.productcart)
+                        {
+                            totalcost = z.price + totalcost;
+                        }
+                        int totaldiscount = 0;
+                        int totalprice = 0;
+                        
+                        totalprice = (totalcost / 100) * (100 - customer.perk);
+
+                        totaldiscount = totalprice - totalcost;
+
+
+                        Console.Write(totalprice + " Pounds");
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.WriteLine();
+                        Console.WriteLine("-----------------");
+                        Console.Write("You just saved ");
+                        Console.Write(totaldiscount);
+                        
+                        Console.WriteLine("");
+                        Console.WriteLine("the bill will be sent to your address: " + customer.adress);
+                        Console.WriteLine("Thanks for choosing " + erstershop.shopname);
+                        Task.Delay(5000).Wait();
+                        Environment.Exit(0);
+                    }
+
+                } while (true);
+
+                #endregion
+
+
+
             }
+            #endregion
             else
+            #region notvip
             {
                 var customer = new shop.regular_customer();
                 customer.name = "unspecifed";
                 Console.WriteLine("Maybe another time...");
 
+                Console.WriteLine("Sign up:");
+                Console.WriteLine("");
 
-            }
+                Console.Write("Name:");
 
-            Console.WriteLine("Sign up:");
-            Console.WriteLine("");
-            
-            Console.Write("Name:");
-            
-            customer.name = Console.ReadLine();
-            
-            
-            Console.Write("Password:");
-
-            
-            customer.password = Console.ReadLine();
-            
-            Console.WriteLine("");
-
-            
-                
-            
-            Console.WriteLine("");
-            Console.Write("Adresse:");
-            customer.adress = Console.ReadLine();
-
-            Console.Clear();
-
-            #region todays super sale
-
-            Console.BackgroundColor = ConsoleColor.Magenta;
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.Clear();
-
-            Console.WriteLine("");
-            Console.WriteLine("---------------------------------------");
-
-            // random shop item 
-
-            
-            Console.WriteLine("Todays Super deal: ");
-            
-            Random rand = new Random();
-            int randomitem = rand.Next(1, erstershop.productlist.Count);
-            var firstcart = new shop.cart();
-            int jj = erstershop.productlist.Count;
-            
-            foreach(shop.product p in erstershop.productlist)
-            {
-                if (p.sku == randomitem)
-                {
-                    Console.WriteLine(p.name + " for " + p.price + " Pounds");
-                }
-            }
-            Console.WriteLine("---------------------------------------");
-            Task.Delay(3000).Wait();
-            #endregion
+                customer.name = Console.ReadLine();
 
 
-            #region functions
+                Console.Write("Password:");
 
-            Console.BackgroundColor = ConsoleColor.Gray;
-            Console.ForegroundColor = ConsoleColor.Black;
-            Console.Clear();
-            do
-            {
-               
+
+                customer.password = Console.ReadLine();
+
+                Console.WriteLine("");
+
+
+
+
+                Console.WriteLine("");
+                Console.Write("Adress:");
+                customer.adress = Console.ReadLine();
+
+                #region todays super sale
+
+                Console.BackgroundColor = ConsoleColor.Magenta;
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.Clear();
+
+                Console.WriteLine("");
                 Console.WriteLine("---------------------------------------");
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Functions: ");
+
+                // random shop item 
+
+
+                Console.WriteLine("Todays Super deal: ");
+
+                Random rand = new Random();
+                int randomitem = rand.Next(1, erstershop.productlist.Count);
+                var firstcart = new shop.cart();
+                int jj = erstershop.productlist.Count;
+
+                foreach (shop.product p in erstershop.productlist)
+                {
+                    if (p.sku == randomitem)
+                    {
+                        Console.WriteLine(p.name + " for " + p.price + " Pounds");
+                    }
+                }
+                Console.WriteLine("---------------------------------------");
+                Task.Delay(3000).Wait();
+                #endregion
+
+
+                #region functions
+
+                Console.BackgroundColor = ConsoleColor.Gray;
                 Console.ForegroundColor = ConsoleColor.Black;
-                Console.WriteLine(" 1   View all Products in stock");
-                Console.WriteLine(" 2   Add Products to your cart");
-                Console.WriteLine(" 3   Checkout");
-                Console.WriteLine();
-                Console.WriteLine("Please select a function:");
+                Console.Clear();
+                do
+                {
 
-                string eingabe1="";
-                while(eingabe1 == "")
-                {
-                    eingabe1 = Console.ReadLine();
-                }               
-                int eingabe = Convert.ToInt32(eingabe1);
-                if (eingabe == 1)                                   // all products in stock 
-                {
-                    Console.BackgroundColor = ConsoleColor.Gray;
+                    Console.WriteLine("---------------------------------------");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Functions: ");
                     Console.ForegroundColor = ConsoleColor.Black;
-                    Console.Clear();
-                    Console.WriteLine("function 1 selected....");
-                    Task.Delay(1000).Wait();
-                    Console.Clear();
-
-                    Console.WriteLine("sku   description");
-                    foreach (var product in erstershop.productlist)
-                    {
-                        Console.Write(product.sku + "     ");
-                        Console.WriteLine(product.name);
-                    }
-                    
-                    Console.WriteLine("");
-
-                }
-
-                if (eingabe == 2)                                  // add products to cart 
-                {
-                    string shortsku = "";
-                    int tempsku = 0;
-                    Console.WriteLine("add products to your cart: ");
-                    Console.WriteLine(" ");
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine("please enter sku:");
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    shortsku = Console.ReadLine();
-                    tempsku = Convert.ToInt32(shortsku);
-                    int i = 0;
-
-                    
-
-                    foreach (shop.product p in erstershop.productlist)
-                    {
-                        if (p.sku == tempsku)
-                        {
-                            firstcart.productcart.Add(p);
-                        }
-                    }
-
-                    Console.WriteLine("your cart contains:");
-                    foreach (shop.product z in firstcart.productcart)
-                    {
-                        Console.WriteLine(z.name);
-                    }
-
-                    Task.Delay(1000).Wait();
-
-                    Console.Clear();
-                 
-                }
-
-                if (eingabe == 3)                       //checkout
-                {
-                    Console.WriteLine("");
-                    Console.Clear();
-                    Console.WriteLine("proceeding to checkout....");
-                    Task.Delay(100).Wait();
-                    Console.Clear();
-                    Console.WriteLine("Hey " + customer.name + ", your selected products: ");
+                    Console.WriteLine(" 1   View all Products in stock");
+                    Console.WriteLine(" 2   Add Products to your cart");
+                    Console.WriteLine(" 3   Checkout");
                     Console.WriteLine();
-                    foreach (shop.product z in firstcart.productcart)
+                    Console.WriteLine("Please select a function:");
+
+                    string eingabe1 = "";
+                    while (eingabe1 == "")
                     {
-                        Console.WriteLine(z.name);
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine(z.price + " Pounds");
+                        eingabe1 = Console.ReadLine();
+                    }
+                    int eingabe = Convert.ToInt32(eingabe1);
+                    if (eingabe == 1)                                   // all products in stock 
+                    {
+                        Console.BackgroundColor = ConsoleColor.Gray;
                         Console.ForegroundColor = ConsoleColor.Black;
-                    }
-                    Console.WriteLine();
-                    Console.Write("Total Cost: ");
-                    int totalcost = 0;
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    foreach (shop.product z in firstcart.productcart)
-                    {
-                        totalcost = z.price + totalcost;
-                    }
-                    Console.Write(totalcost + " Pounds");
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Console.WriteLine("");
-                    Console.WriteLine("the bill will be sent to your address: " + customer.adress);
-                    Console.WriteLine("Thanks for choosing " + erstershop.shopname);
-                    Task.Delay(5000).Wait();
-                    Environment.Exit(0);
-                }
+                        Console.Clear();
+                        Console.WriteLine("function 1 selected....");
+                        Task.Delay(1000).Wait();
+                        Console.Clear();
 
-            }while(true);
-            Console.ReadLine();
+                        Console.WriteLine("sku   description");
+                        foreach (var product in erstershop.productlist)
+                        {
+                            Console.Write(product.sku + "     ");
+                            Console.WriteLine(product.name);
+                        }
+
+                        Console.WriteLine("");
+
+                    }
+
+                    if (eingabe == 2)                                  // add products to cart 
+                    {
+                        string shortsku = "";
+                        int tempsku = 0;
+                        Console.WriteLine("add products to your cart: ");
+                        Console.WriteLine(" ");
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.WriteLine("please enter sku:");
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        shortsku = Console.ReadLine();
+                        tempsku = Convert.ToInt32(shortsku);
+                        int i = 0;
+
+
+
+                        foreach (shop.product p in erstershop.productlist)
+                        {
+                            if (p.sku == tempsku)
+                            {
+                                firstcart.productcart.Add(p);
+                            }
+                        }
+
+                        Console.WriteLine("your cart contains:");
+                        foreach (shop.product z in firstcart.productcart)
+                        {
+                            Console.WriteLine(z.name);
+                        }
+
+                        Task.Delay(1000).Wait();
+
+                        Console.Clear();
+
+                    }
+
+                    if (eingabe == 3)                       //checkout
+                    {
+                        Console.WriteLine("");
+                        Console.Clear();
+                        Console.WriteLine("proceeding to checkout....");
+                        Task.Delay(100).Wait();
+                        Console.Clear();
+                        Console.WriteLine("Hey " + customer.name + ", your selected products: ");
+                        Console.WriteLine();
+                        foreach (shop.product z in firstcart.productcart)
+                        {
+                            Console.WriteLine(z.name);
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine(z.price + " Pounds");
+                            Console.ForegroundColor = ConsoleColor.Black;
+                        }
+                        Console.WriteLine();
+                        Console.Write("Total Cost: ");
+                        int totalcost = 0;
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        foreach (shop.product z in firstcart.productcart)
+                        {
+                            totalcost = z.price + totalcost;
+                        }
+
+                        int perk = customer.perk;
+
+                       
+
+                        Console.Write(totalcost + " Pounds");
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.WriteLine("");
+                        Console.WriteLine("the bill will be sent to your address: " + customer.adress);
+                        Console.WriteLine("Thanks for choosing " + erstershop.shopname);
+                        Task.Delay(5000).Wait();
+                        Environment.Exit(0);
+                    }
+
+                } while (true);
+
+                #endregion
+
+            }
             #endregion
 
+            #endregion
+
+            Console.Clear();
+
+            
             #endregion
         }
     }

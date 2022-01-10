@@ -9,6 +9,6 @@ namespace shop
     internal class regular_customer:customer
     {
         // how high is the price reduction? 
-        int perk = 0;
+       public int perk = 0;
     }
 }

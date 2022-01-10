@@ -9,6 +9,6 @@ namespace shop
     internal class vip_customer : customer
     {
         // how high is the price reduction? 
-        int perk = 10;
+        public int perk = 10;
     }
 }
