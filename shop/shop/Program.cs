@@ -1,4 +1,11 @@
-﻿using System.Threading.Tasks;
+﻿/* made by basti
+ * revision 2.2:
+ * additions:
+ * - protected idiotproof inputs
+ */
+
+
+using System.Threading.Tasks;
 namespace main
 {
     class Program
@@ -81,8 +88,8 @@ namespace main
 
             #region inteface
 
-            
-            
+            string entryvip;
+
 
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.ForegroundColor = ConsoleColor.Black;
@@ -99,7 +106,13 @@ namespace main
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("membership ?");
             Console.WriteLine("y/n");
-            string entryvip = Console.ReadLine();
+            
+            do
+            {
+                entryvip = Console.ReadLine();
+            } while ((entryvip != "y") && (entryvip != "n"));
+            
+            
             Console.WriteLine("");
 
             #region signup
@@ -121,10 +134,10 @@ namespace main
 
 
                 Console.Write("Password:");
-
+                Console.ForegroundColor = ConsoleColor.Gray;
 
                 customer.password = Console.ReadLine();
-
+                Console.ForegroundColor = ConsoleColor.Black;
                 Console.WriteLine("");
 
 
@@ -172,6 +185,7 @@ namespace main
                 Console.Clear();
                 do
                 {
+                    int entry = 0; 
 
                     Console.WriteLine("---------------------------------------");
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -183,13 +197,24 @@ namespace main
                     Console.WriteLine();
                     Console.WriteLine("Please select a function:");
 
-                    string eingabe1 = "";
-                    while (eingabe1 == "")
+                    try
                     {
-                        eingabe1 = Console.ReadLine();
+                        entry = Convert.ToInt32(Console.ReadLine());
+
                     }
-                    int eingabe = Convert.ToInt32(eingabe1);
-                    if (eingabe == 1)                                   // all products in stock 
+                    catch
+                    {
+
+                        Console.BackgroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("Please enter a valid int");
+                        Task.Delay(1000).Wait();
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.BackgroundColor = ConsoleColor.Gray;
+                        
+                    }
+                    
+                    if (entry == 1)                                   // all products in stock 
                     {
                         Console.BackgroundColor = ConsoleColor.Gray;
                         Console.ForegroundColor = ConsoleColor.Black;
@@ -209,7 +234,7 @@ namespace main
 
                     }
 
-                    if (eingabe == 2)                                  // add products to cart 
+                    if (entry == 2)                                  // add products to cart 
                     {
                         string shortsku = "";
                         int tempsku = 0;
@@ -220,7 +245,7 @@ namespace main
                         Console.ForegroundColor = ConsoleColor.Black;
                         shortsku = Console.ReadLine();
                         tempsku = Convert.ToInt32(shortsku);
-                        int i = 0;
+                        
 
 
 
@@ -244,7 +269,7 @@ namespace main
 
                     }
 
-                    if (eingabe == 3)                       //checkout
+                    if (entry == 3)                       //checkout
                     {
                         Console.WriteLine("");
                         Console.Clear();
@@ -288,6 +313,17 @@ namespace main
                         Console.WriteLine("Thanks for choosing " + erstershop.shopname);
                         Task.Delay(5000).Wait();
                         Environment.Exit(0);
+                    }
+
+                    if (entry > 3 || entry <1)
+                    {
+                        Console.BackgroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("Please select one of the displayed functions..");
+                        Task.Delay(1000).Wait();
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.BackgroundColor = ConsoleColor.Gray;
+                        Console.Clear();
                     }
 
                 } while (true);
@@ -377,11 +413,13 @@ namespace main
                     Console.WriteLine("Please select a function:");
 
                     string eingabe1 = "";
-                    while (eingabe1 == "")
+                    int eingabe = 0;
+                    while ((eingabe !=1) || (eingabe !=2)|| (eingabe !=3))
                     {
                         eingabe1 = Console.ReadLine();
+                        eingabe = Convert.ToInt32(eingabe1);
                     }
-                    int eingabe = Convert.ToInt32(eingabe1);
+                    
                     if (eingabe == 1)                                   // all products in stock 
                     {
                         Console.BackgroundColor = ConsoleColor.Gray;
@@ -413,7 +451,7 @@ namespace main
                         Console.ForegroundColor = ConsoleColor.Black;
                         shortsku = Console.ReadLine();
                         tempsku = Convert.ToInt32(shortsku);
-                        int i = 0;
+                        
 
 
 
@@ -484,7 +522,7 @@ namespace main
 
             #endregion
 
-            Console.Clear();
+            
 
             
             #endregion
