@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CU5GH8uPRmB3p38ocS4LyPpkwg+5BiK2S7sBr62mxMNQ6tlnKHYUMPPKFFl/Ww3b0yJ35zGND9K7EWTBBC/XSg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\basti\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\cs.fsst\\Exceptions\\Exceptions\\Exceptions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\basti\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
