@@ -10,20 +10,11 @@ namespace Exceptions
     class InvalidStudentNumberException : Exception
     {
         
-        string message = "Student-ID has to follow the pattern: /^S/d{4}$/";
+        public string Pattern { get; set; }
+
         public InvalidStudentNumberException()
         {
-            Console.WriteLine(message);
-        }
-
-        public InvalidStudentNumberException(string message) : base(message)
-        {
-
-        }
-
-        public InvalidStudentNumberException(string message, Exception innerException) : base(message, innerException)
-        {
-            Console.WriteLine(message, innerException);
+            Pattern = "Student-ID has to follow the pattern: /^S\u005cd{4}$/.";
         }
         
     }

@@ -380,7 +380,7 @@ namespace main
                         Console.WriteLine("");
                         Console.WriteLine("the bill will be sent to your address: " + customer.address);
                         Console.WriteLine("Thanks for choosing " + erstershop.shopname);
-                        Task.Delay(5000).Wait();
+                        Task.Delay(10000).Wait();
                         Environment.Exit(0);
                     }
                     #endregion

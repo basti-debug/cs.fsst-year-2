@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace Exceptions
 {
-    public class student
+    class student
     {
-        public extern student(string Name, int ID);
+        string _name { get; set; }
+
+        string _id { get; set; }
+
+        public student(string Name, string ID)
+        {
+            _name = Name;
+            _id = ID;
+        }
     }
 }

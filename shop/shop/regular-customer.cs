@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace shop
 {
-    internal class regular_customer:customer
+    class regular_customer:customer
     {
         // how high is the price reduction? 
        public int perk = 0;
