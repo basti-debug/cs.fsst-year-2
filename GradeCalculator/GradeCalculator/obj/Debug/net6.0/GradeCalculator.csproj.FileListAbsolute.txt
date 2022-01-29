@@ -1,0 +1,5 @@
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\GradeCalculator\GradeCalculator\obj\Debug\net6.0\GradeCalculator.csproj.AssemblyReference.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\GradeCalculator\GradeCalculator\obj\Debug\net6.0\GradeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\GradeCalculator\GradeCalculator\obj\Debug\net6.0\GradeCalculator.AssemblyInfoInputs.cache
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\GradeCalculator\GradeCalculator\obj\Debug\net6.0\GradeCalculator.AssemblyInfo.cs
+C:\Users\basti\OneDrive - HTL-Rankweil\Softwaretechnik\3 Jahr\cs.fsst\cs.fsst\GradeCalculator\GradeCalculator\obj\Debug\net6.0\GradeCalculator.csproj.CoreCompileInputs.cache
