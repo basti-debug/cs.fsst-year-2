@@ -1,0 +1,137 @@
+﻿++Solution 'GradeCalculator' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:GradeCalculator.sln
+++GradeCalculator
+i:{00000000-0000-0000-0000-000000000000}:GradeCalculator
+++Dependencies
+i:{d26c2373-fb98-4889-8ee5-f2d6ba86f0a9}:>82
+++averagegrade.cs
+i:{d26c2373-fb98-4889-8ee5-f2d6ba86f0a9}:c:\users\basti\source\repos\basti-debug\cs.fsst-year-2\gradecalculator\gradecalculator\averagegrade.cs
+++Program.cs
+i:{d26c2373-fb98-4889-8ee5-f2d6ba86f0a9}:c:\users\basti\source\repos\basti-debug\cs.fsst-year-2\gradecalculator\gradecalculator\program.cs
+++subjectcon.cs
+i:{d26c2373-fb98-4889-8ee5-f2d6ba86f0a9}:c:\users\basti\source\repos\basti-debug\cs.fsst-year-2\gradecalculator\gradecalculator\subjectcon.cs
+++Analyzers
+i:{d26c2373-fb98-4889-8ee5-f2d6ba86f0a9}:analyzers
+++Frameworks
+i:{d26c2373-fb98-4889-8ee5-f2d6ba86f0a9}:frameworks
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{d26c2373-fb98-4889-8ee5-f2d6ba86f0a9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{d26c2373-fb98-4889-8ee5-f2d6ba86f0a9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{d26c2373-fb98-4889-8ee5-f2d6ba86f0a9}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{d26c2373-fb98-4889-8ee5-f2d6ba86f0a9}:c:\users\basti\source\repos\basti-debug\cs.fsst-year-2\gradecalculator\gradecalculator\microsoft.netcore.app
+++bin
+++Debug
+++Release
+++net6.0
+++ref
+++obj
+++GradeCalculator.csproj.nuget.dgspec.json
+++GradeCalculator.csproj.nuget.g.props
+++GradeCalculator.csproj.nuget.g.targets
+++project.assets.json
+++project.nuget.cache
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+++GradeCalculator.AssemblyInfo.cs
+++GradeCalculator.AssemblyInfoInputs.cache
+++GradeCalculator.assets.cache
+++GradeCalculator.csproj.AssemblyReference.cache
+++GradeCalculator.csproj.CoreCompileInputs.cache
+++GradeCalculator.csproj.FileListAbsolute.txt
+++GradeCalculator.GeneratedMSBuildEditorConfig.editorconfig
+++GradeCalculator.GlobalUsings.g.cs
+++Imports
+++Sdk.props
+++Sdk.targets
+++Microsoft.Common.props
+++Microsoft.NET.Sdk.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+++Microsoft.CSharp.targets
+++Microsoft.NET.Sdk.targets
+++Microsoft.NET.Compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+++Microsoft.NuGet.ImportBefore.props
+++NuGet.props
+++Microsoft.NET.Sdk.DefaultItems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+++Microsoft.NET.SupportedPlatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+++Microsoft.NET.ILLink.props
+++Microsoft.NET.Compatibility.props
+++Microsoft.NET.PackTool.props
+++Microsoft.NET.PackProjectTool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+++Microsoft.NET.Windows.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+++Microsoft.Managed.Before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+++Microsoft.Managed.After.targets
+++Microsoft.NET.Sdk.Common.targets
+++Microsoft.PackageDependencyResolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+++Microsoft.NET.DesignerSupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+++Microsoft.NET.ComposeStore.targets
+++Microsoft.NET.CrossGen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+++Microsoft.NET.Publish.targets
+++Microsoft.NET.PackTool.targets
+++Microsoft.NET.PackProjectTool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+++Microsoft.NET.ConflictResolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+++Microsoft.NET.ILLink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+++Microsoft.NuGet.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+++Microsoft.CSharp.Core.targets
+++Microsoft.CSharp.DesignTime.targets
+++Microsoft.Common.targets
+++Microsoft.ServiceModel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+++Microsoft.NET.ILLink.Tasks.props
+++System.Windows.Forms.Analyzers.props
+++Microsoft.Managed.Core.targets
+++Microsoft.Managed.DesignTime.targets
+++Microsoft.Common.CurrentVersion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+++Microsoft.NET.props
+++Microsoft.CodeAnalysis.targets
+++Microsoft.Xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+++Microsoft.TeamTest.targets
+++NuGet.targets
+++Microsoft.NET.Build.Extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+++Microsoft.Web.ImportAfter.targets

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d26c2373-fb98-4889-8ee5-f2d6ba86f0a9": {
+      "ProjectGuid": "d26c2373-fb98-4889-8ee5-f2d6ba86f0a9",
+      "DisplayName": "GradeCalculator",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
