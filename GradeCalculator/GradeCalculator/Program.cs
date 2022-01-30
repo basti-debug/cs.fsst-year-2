@@ -20,7 +20,7 @@ class Program
         
 
         Console.WriteLine("Grade Calculator:");
-        Console.WriteLine("version v0.1");
+        Console.WriteLine("version v0.2");
         Console.WriteLine("");
         Console.WriteLine("How many subjects do wana calculate?");
 
@@ -48,6 +48,8 @@ class Program
 
                 subjectcon entry1 = new subjectcon(__name,__subject,__grade);
                 allgrades.Add(entry1);
+                Console.WriteLine("check");
+                howmany--;
 
             }
             catch (Exception)
@@ -55,6 +57,9 @@ class Program
                 Console.WriteLine("Please enter a valid format");
             }
 
+            string selection1;
+
+            
         }
         
 
