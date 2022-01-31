@@ -31,7 +31,7 @@ class Program
         Console.WriteLine("Use the given syntax:");
         Console.WriteLine("yourname, subject, grade");
 
-        while(howmany > 0)
+        while (howmany > 0)
         {
             try
             {
@@ -46,7 +46,7 @@ class Program
                 __subject = _entry[1];
                 __grade = Convert.ToInt32(_entry[2]);
 
-                subjectcon entry1 = new subjectcon(__name,__subject,__grade);
+                subjectcon entry1 = new subjectcon(__name, __subject, __grade);
                 allgrades.Add(entry1);
                 Console.WriteLine("check");
                 howmany--;
@@ -56,12 +56,34 @@ class Program
             {
                 Console.WriteLine("Please enter a valid format");
             }
-
+        }
             string selection1;
 
-            
-        }
+            do
+            {
+                Console.WriteLine("Do you wana calculate your average Grade ? ");
+                selection1 = Console.ReadLine();
+            } while ((selection1 != "y") && (selection1 != "n"));
+
+            if (selection1 == "y")
+            {
+
+                // fill array - wait with that 
+
+                string[] = new string[] {}
+
+               
+
+
+                Console.WriteLine("{0,-20} {1,5}\n", "Name", "Hours");
+            for (int ctr = 0; ctr < .Length; ctr++)
+                Console.WriteLine("{0-20} {1,5:N1}")
+            }
+
+
+        Console.ReadKey();
         
+
 
     }
 }
