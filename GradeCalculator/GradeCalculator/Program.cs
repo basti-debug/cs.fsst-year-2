@@ -4,9 +4,9 @@ using GradeCalculator;
 /* Grade Calculator 
  * by basti 
  * 
- * Session from 19.1.2022
+ * Session from 1.2.2022
  * 
- * v0.1 
+ * v0.2 
  */
 
 class Program
@@ -14,20 +14,19 @@ class Program
 
     static void Main(string[]args)
     {
-
-        List<subjectcon> allgrades = new List<subjectcon >();
         int howmany = 4;
-        
+        int counter = 0;
 
         Console.WriteLine("Grade Calculator:");
         Console.WriteLine("version v0.2");
         Console.WriteLine("");
-        Console.WriteLine("How many subjects do wana calculate?");
+        Console.WriteLine("How many subjects do wana calculate? minimum 4");
+
 
         howmany = Convert.ToInt32(Console.ReadLine());
 
+        subjectcon[] allgrade = new subjectcon[howmany];
 
-        Console.WriteLine("Please enter at least 4 subjects");
         Console.WriteLine("Use the given syntax:");
         Console.WriteLine("yourname, subject, grade");
 
@@ -47,10 +46,10 @@ class Program
                 __grade = Convert.ToInt32(_entry[2]);
 
                 subjectcon entry1 = new subjectcon(__name, __subject, __grade);
-                allgrades.Add(entry1);
+                allgrade[counter] = entry1; 
                 Console.WriteLine("check");
                 howmany--;
-
+                counter++;
             }
             catch (Exception)
             {
@@ -68,16 +67,38 @@ class Program
             if (selection1 == "y")
             {
 
-                // fill array - wait with that 
+            // fill array - wait with that 
+            int lengthname = 0;
+            int lengthsubject = 0;
 
-                string[] = new string[] {}
-
+            foreach(subjectcon cony in allgrade)
+            {
+                if (cony.name.Length>lengthname)
+                {
+                   lengthname = cony.name.Length ;
+                }
                
+            }
+
+            foreach(subjectcon cons in allgrade)
+            {
+                if (cons.subjectname.Length>lengthsubject)
+                {
+                    lengthsubject = cons.subjectname.Length;
+                }
+            }
+            Console.WriteLine(lengthname);
+            Console.WriteLine(lengthsubject); 
+            Console.WriteLine("{0", lengthname, "} {1,",lengthsubject,"} {2,10}", "Name", "Subject", "Grade");
+
+            foreach(subjectcon con in allgrade)
+            {
+
+               Console.WriteLine("{0", -lengthname,"} {1,",-lengthsubject,"} {2,10}", con.name, con.subjectname, con.grade);
+            }
 
 
-                Console.WriteLine("{0,-20} {1,5}\n", "Name", "Hours");
-            for (int ctr = 0; ctr < .Length; ctr++)
-                Console.WriteLine("{0-20} {1,5:N1}")
+            Console.WriteLine("déam");
             }
 
 

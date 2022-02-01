@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\shop",
+    "\\shop\\shop"
   ],
-  "SelectedNode": "\\GradeCalculator.sln",
+  "SelectedNode": "\\shop\\shop\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
