@@ -1,12 +1,11 @@
-﻿using System;
-using GradeCalculator;
+﻿using GradeCalculator;
 
 /* Grade Calculator 
  * by basti 
  * 
  * Session from 1.2.2022
  * 
- * v0.3
+ * v1.0
  */
 
 class Program
@@ -18,7 +17,7 @@ class Program
         int counter = 0;
 
         Console.WriteLine("Grade Calculator:");
-        Console.WriteLine("version v0.2");
+        Console.WriteLine("version v1.0");
         Console.WriteLine("");
         Console.WriteLine("How many subjects do wana calculate? minimum 4");
 
@@ -80,27 +79,43 @@ class Program
                
             }
 
-            foreach(subjectcon cons in allgrade)
+            foreach (subjectcon cons in allgrade)
             {
                 if (cons.subjectname.Length>lengthsubject)
                 {
                     lengthsubject = cons.subjectname.Length;
                 }
             }
-            Console.WriteLine(lengthname);
-            Console.WriteLine(lengthsubject); 
-            Console.WriteLine("{0", lengthname, "} {1,",lengthsubject,"} {2,10}", "Name", "Subject", "Grade");
+            Console.WriteLine("{0,-10} {1,-10} {2,10}", "Name", "Subject", "Grade");
 
             foreach(subjectcon con in allgrade)
             {
 
-               Console.WriteLine("{0", -lengthname,"} {1,",-lengthsubject,"} {2,10}", con.name, con.subjectname, con.grade);
+               Console.WriteLine("{0,-10} {1,-10} {2,-10}", con.name, con.subjectname, con.grade);
             }
 
 
-            Console.WriteLine("déam");
+            Console.WriteLine("----------------------------");
+
+
+            // calculate averagegrade
+
+            int averagegrade = 0;
+
+            foreach(subjectcon sa in allgrade)
+            {
+                averagegrade = averagegrade + Convert.ToInt32(sa.grade);
             }
 
+
+            averagegrade = averagegrade / allgrade.Length;
+            Console.WriteLine("Your average Grad is :" + averagegrade);
+            }
+
+            else
+        {
+            Console.WriteLine("Okay bye");
+        }
 
         Console.ReadKey();
         
