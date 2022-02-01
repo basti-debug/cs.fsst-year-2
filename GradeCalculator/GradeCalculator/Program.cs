@@ -3,9 +3,11 @@
 /* Grade Calculator 
  * by basti 
  * 
- * Session from 1.2.2022
+ * Session from 1.2.2022 22:48
  * 
- * v1.0
+ * revision v1.1
+ * added spreadsheet format
+ * 
  */
 
 class Program
@@ -13,13 +15,16 @@ class Program
 
     static void Main(string[]args)
     {
-        int howmany = 4;
+        int howmany = 3;
         int counter = 0;
+        string name = "";
 
         Console.WriteLine("Grade Calculator:");
-        Console.WriteLine("version v1.0");
+        Console.WriteLine("version v1.1");
         Console.WriteLine("");
-        Console.WriteLine("How many subjects do wana calculate? minimum 4");
+        Console.WriteLine("Whats your name ?:");
+        name = Console.ReadLine();
+        Console.WriteLine("How many subjects do wana calculate? minimum 3");
 
 
         howmany = Convert.ToInt32(Console.ReadLine());
@@ -27,26 +32,25 @@ class Program
         subjectcon[] allgrade = new subjectcon[howmany];
 
         Console.WriteLine("Use the given syntax:");
-        Console.WriteLine("yourname, subject, grade");
+        Console.WriteLine("subject, grade");
 
         while (howmany > 0)
         {
             try
             {
-                string __name;
+                
                 string __subject;
                 int __grade;
 
                 string entry = Console.ReadLine();
                 string[] _entry = entry.Split(",");
 
-                __name = _entry[0];
-                __subject = _entry[1];
-                __grade = Convert.ToInt32(_entry[2]);
+             
+                __subject = _entry[0];
+                __grade = Convert.ToInt32(_entry[1]);
 
-                subjectcon entry1 = new subjectcon(__name, __subject, __grade);
+                subjectcon entry1 = new subjectcon(name, __subject, __grade);
                 allgrade[counter] = entry1; 
-                Console.WriteLine("check");
                 howmany--;
                 counter++;
             }
@@ -65,7 +69,7 @@ class Program
 
             if (selection1 == "y")
             {
-
+            Console.Clear();
             // fill array - wait with that 
             int lengthname = 0;
             int lengthsubject = 0;
@@ -86,12 +90,14 @@ class Program
                     lengthsubject = cons.subjectname.Length;
                 }
             }
-            Console.WriteLine("{0,-10} {1,-10} {2,10}", "Name", "Subject", "Grade");
+            Console.WriteLine("{0,-10} | {1,-10}", "Subject", "Grade");
 
-            foreach(subjectcon con in allgrade)
+            Console.WriteLine("----------------------------");
+
+            foreach (subjectcon con in allgrade)
             {
 
-               Console.WriteLine("{0,-10} {1,-10} {2,-10}", con.name, con.subjectname, con.grade);
+               Console.WriteLine("{0,-10} | {1,-10}",  con.subjectname, con.grade);
             }
 
 
@@ -113,9 +119,9 @@ class Program
             }
 
             else
-        {
+            {
             Console.WriteLine("Okay bye");
-        }
+            }
 
         Console.ReadKey();
         
