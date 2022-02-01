@@ -6,7 +6,7 @@ using GradeCalculator;
  * 
  * Session from 1.2.2022
  * 
- * v0.2 
+ * v0.3
  */
 
 class Program
