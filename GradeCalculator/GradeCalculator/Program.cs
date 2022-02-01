@@ -3,11 +3,11 @@
 /* Grade Calculator 
  * by basti 
  * 
- * Session from 1.2.2022 22:48
+ * Session from 1.2.2022 22:48 / 23:16
  * 
- * revision v1.1
+ * revision v1.2
  * added spreadsheet format
- * 
+ * added colors 
  */
 
 class Program
@@ -20,7 +20,7 @@ class Program
         string name = "";
 
         Console.WriteLine("Grade Calculator:");
-        Console.WriteLine("version v1.1");
+        Console.WriteLine("version v1.2");
         Console.WriteLine("");
         Console.WriteLine("Whats your name ?:");
         name = Console.ReadLine();
@@ -70,7 +70,9 @@ class Program
             if (selection1 == "y")
             {
             Console.Clear();
-            // fill array - wait with that 
+
+            #region output
+
             int lengthname = 0;
             int lengthsubject = 0;
 
@@ -96,15 +98,35 @@ class Program
 
             foreach (subjectcon con in allgrade)
             {
-
+               if (con.grade == 1)
+               {
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+               }
+               if (con.grade == 2)
+               {
+                    Console.BackgroundColor = ConsoleColor.Green;
+               }
+               if (con.grade == 3)
+               {
+                    Console.BackgroundColor = ConsoleColor.Yellow;
+               }
+               if (con.grade == 4)
+               {
+                    Console.BackgroundColor = ConsoleColor.DarkYellow;
+               }
+               if (con.grade == 5)
+               {
+                    Console.BackgroundColor = ConsoleColor.Red;
+               }
                Console.WriteLine("{0,-10} | {1,-10}",  con.subjectname, con.grade);
             }
 
+            Console.ResetColor();
 
             Console.WriteLine("----------------------------");
 
 
-            // calculate averagegrade
+            #region calcaverage
 
             int averagegrade = 0;
 
@@ -115,10 +137,36 @@ class Program
 
 
             averagegrade = averagegrade / allgrade.Length;
-            Console.WriteLine("Your average Grad is :" + averagegrade);
+            Console.Write("Your average Grad is :");
+            #region colorav
+            if (averagegrade == 1)
+               {
+                Console.BackgroundColor = ConsoleColor.DarkGreen;
             }
+            if (averagegrade == 2)
+            {
+                Console.BackgroundColor = ConsoleColor.Green;
+            }
+            if (averagegrade == 3)
+            {
+                Console.BackgroundColor = ConsoleColor.Yellow;
+            }
+            if (averagegrade == 4)
+            {
+                Console.BackgroundColor = ConsoleColor.DarkYellow;
+            }
+            if (averagegrade == 5)
+            {
+                Console.BackgroundColor = ConsoleColor.Red;
+            }
+            Console.Write(averagegrade);
+            Console.ResetColor();
+            #endregion
+            #endregion
+            #endregion
+        }
 
-            else
+        else
             {
             Console.WriteLine("Okay bye");
             }
