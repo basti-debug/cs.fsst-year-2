@@ -8,6 +8,9 @@
  * revision v1.2
  * added spreadsheet format
  * added colors 
+ * 
+ * revision v1.3
+ * split colors
  */
 
 class Program
