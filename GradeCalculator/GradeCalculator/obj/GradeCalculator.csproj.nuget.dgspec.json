@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\basti\\Source\\Repos\\basti-debug\\cs.fsst-year-2\\GradeCalculator\\GradeCalculator\\GradeCalculator.csproj": {}
+    "C:\\Users\\basti\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\basti-debug\\cs.fsst-year-2\\GradeCalculator\\GradeCalculator\\GradeCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\basti\\Source\\Repos\\basti-debug\\cs.fsst-year-2\\GradeCalculator\\GradeCalculator\\GradeCalculator.csproj": {
+    "C:\\Users\\basti\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\basti-debug\\cs.fsst-year-2\\GradeCalculator\\GradeCalculator\\GradeCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\basti\\Source\\Repos\\basti-debug\\cs.fsst-year-2\\GradeCalculator\\GradeCalculator\\GradeCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\basti\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\basti-debug\\cs.fsst-year-2\\GradeCalculator\\GradeCalculator\\GradeCalculator.csproj",
         "projectName": "GradeCalculator",
-        "projectPath": "C:\\Users\\basti\\Source\\Repos\\basti-debug\\cs.fsst-year-2\\GradeCalculator\\GradeCalculator\\GradeCalculator.csproj",
+        "projectPath": "C:\\Users\\basti\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\basti-debug\\cs.fsst-year-2\\GradeCalculator\\GradeCalculator\\GradeCalculator.csproj",
         "packagesPath": "C:\\Users\\basti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\basti\\Source\\Repos\\basti-debug\\cs.fsst-year-2\\GradeCalculator\\GradeCalculator\\obj\\",
+        "outputPath": "C:\\Users\\basti\\OneDrive - HTL-Rankweil\\Softwaretechnik\\3 Jahr\\cs.fsst\\basti-debug\\cs.fsst-year-2\\GradeCalculator\\GradeCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\basti\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -98,30 +98,33 @@ class Program
 
             foreach (subjectcon con in allgrade)
             {
-               if (con.grade == 1)
-               {
+               
+               Console.Write("{0,-10}",  con.subjectname);
+                if (con.grade == 1)
+                {
                     Console.BackgroundColor = ConsoleColor.DarkGreen;
-               }
-               if (con.grade == 2)
-               {
+                }
+                if (con.grade == 2)
+                {
                     Console.BackgroundColor = ConsoleColor.Green;
-               }
-               if (con.grade == 3)
-               {
+                }
+                if (con.grade == 3)
+                {
                     Console.BackgroundColor = ConsoleColor.Yellow;
-               }
-               if (con.grade == 4)
-               {
+                }
+                if (con.grade == 4)
+                {
                     Console.BackgroundColor = ConsoleColor.DarkYellow;
-               }
-               if (con.grade == 5)
-               {
+                }
+                if (con.grade == 5)
+                {
                     Console.BackgroundColor = ConsoleColor.Red;
-               }
-               Console.WriteLine("{0,-10} | {1,-10}",  con.subjectname, con.grade);
+                }
+                Console.WriteLine("| {0,-10}", con.grade);
+                Console.ResetColor();
             }
 
-            Console.ResetColor();
+            
 
             Console.WriteLine("----------------------------");
 
