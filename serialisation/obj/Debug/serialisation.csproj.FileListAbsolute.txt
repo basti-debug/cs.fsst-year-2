@@ -1,0 +1,3 @@
+C:\Users\basti\Source\Repos\basti-debug\cs.fsst-year-2\serialisation\obj\Debug\serialisation.csproj.AssemblyReference.cache
+C:\Users\basti\Source\Repos\basti-debug\cs.fsst-year-2\serialisation\obj\Debug\serialisation.csproj.SuggestedBindingRedirects.cache
+C:\Users\basti\Source\Repos\basti-debug\cs.fsst-year-2\serialisation\obj\Debug\serialisation.csproj.CoreCompileInputs.cache

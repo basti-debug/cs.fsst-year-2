@@ -1,18 +1,28 @@
 ﻿using System;
+using System.Text.Json.Serialization;
 
 namespace serialisation
 {
 	public class serialisation
 	{
-		public serialisation(string sku, string name, double price, string description, bool limited Edition)
-		{
-			string _sku = sku;
-			string _name = name;
-			double _price = price;
-			string _description = description;
-			bool _limitedEdition = limited;
+        class Product
+        {
+            [JsonInclude]
+            public string Sku { get; set; }
 
-		}
-	}
+            [JsonInclude]
+            public string Name { get; set; }
+
+            [JsonInclude]
+            public double Price { get; set; }
+
+            [JsonInclude]
+            public string Description { get; set; }
+
+            [JsonIgnore]
+            public bool LimitedEdition { get; set; }
+
+        }
+    }
 }
 
